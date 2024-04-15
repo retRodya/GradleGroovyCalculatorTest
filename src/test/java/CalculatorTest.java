@@ -70,7 +70,6 @@ class CalculatorTest {
             calculator.add("awda10", "5");
         });
     }
-
     @AfterEach
     void close() {
         calculator = null;
